@@ -3,7 +3,6 @@ import {Directive, ElementRef, EventEmitter, HostListener, Input, OnDestroy, OnI
 import {Subscription} from 'rxjs';
 import {NgxRowService} from './ngx-row.service';
 
-
 @Directive({
     selector: '[ngxRow]'
 })

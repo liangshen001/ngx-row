@@ -4,3 +4,4 @@
 
 export * from './lib/ngx-row.directive';
 export * from './lib/ngx-row.module';
+
