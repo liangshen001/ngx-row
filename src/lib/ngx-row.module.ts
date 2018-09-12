@@ -13,13 +13,5 @@ import {NgxRowDirective} from './ngx-row.directive';
     exports: [NgxRowDirective]
 })
 export class NgxRowModule {
-    static forRoot(): ModuleWithProviders {
-        return {
-            ngModule: NgxRowModule,
-            providers: [
-                NgxRowService
-            ]
-        };
-    }
 }
 
